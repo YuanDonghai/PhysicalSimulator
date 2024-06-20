@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="imgui_impl_glfw.cpp" />
+    <ClCompile Include="imgui_impl_opengl3.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="session.cpp" />
+    <ClCompile Include="session\00empty.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.cpp" />
+    <ClCompile Include="session\galaxy.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="session\race.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="session\race_md.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="session\astronomy.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+    <ClCompile Include="session\astronomy_sim.cpp">
+      <Filter>session</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="imgui_impl_glfw.h" />
+    <ClInclude Include="imgui_impl_opengl3.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="session.h" />
+    <ClInclude Include="session\00empty.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="callback.h" />
+    <ClInclude Include="session\galaxy.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="session\race.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="session\race_md.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="session\astronomy.h">
+      <Filter>session</Filter>
+    </ClInclude>
+    <ClInclude Include="session\astronomy_sim.h">
+      <Filter>session</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="session">
+      <UniqueIdentifier>{653234d4-dd9c-47ad-85a1-fae84c0aaca5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
